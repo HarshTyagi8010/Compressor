@@ -1,0 +1,137 @@
+BLACKBOXAI
+
+Here’s a structured HTML code to add Air Compressor Specifications to your webpage. This section can be added after the About Section or any other relevant section in your index.html file.
+
+html
+Insert Code
+Run
+Copy code
+<!-- ------------------------------Air Compressor Specifications Section------------------------------ -->
+<div id="specifications">
+    <div class="container">
+        <div class="heading">
+            <span>TECHNICAL DETAILS</span>
+            <h1>AIR COMPRESSOR SPECIFICATIONS</h1>
+        </div>
+        <div class="row mar-1">
+            <div class="specs-col">
+                <h3>Model</h3>
+                <p>AC-2000</p>
+            </div>
+            <div class="specs-col">
+                <h3>Power</h3>
+                <p>5 HP</p>
+            </div>
+            <div class="specs-col">
+                <h3>Air Delivery</h3>
+                <p>20 CFM</p>
+            </div>
+            <div class="specs-col">
+                <h3>Max Pressure</h3>
+                <p>150 PSI</p>
+            </div>
+            <div class="specs-col">
+                <h3>Tank Capacity</h3>
+                <p>50 Liters</p>
+            </div>
+            <div class="specs-col">
+                <h3>Noise Level</h3>
+                <p>75 dB</p>
+            </div>
+            <div class="specs-col">
+                <h3>Weight</h3>
+                <p>85 kg</p>
+            </div>
+            <div class="specs-col">
+                <h3>Voltage</h3>
+                <p>220V / 50Hz</p>
+            </div>
+        </div>
+    </div>
+</div>
+Explanation:
+Section Structure: The section is wrapped in a div with the ID specifications for easy styling and identification.
+Heading: A heading with a span and an h1 tag is used to introduce the section.
+Specifications: Each specification is placed in a div with the class specs-col. This allows for a clean and organized layout.
+Flexible Layout: The row class ensures the specifications are displayed in a flexible grid layout.
+Placement:
+Insert this code after the About Section or any other relevant section in your index.html file.
+
+Example Placement:
+html
+Insert Code
+Run
+Copy code
+<!-- ----------------About Section----------------------- -->
+<div id="about">
+    <!-- About Section Content -->
+</div>
+
+<!-- ------------------------------Air Compressor Specifications Section------------------------------ -->
+<div id="specifications">
+    <div class="container">
+        <div class="heading">
+            <span>TECHNICAL DETAILS</span>
+            <h1>AIR COMPRESSOR SPECIFICATIONS</h1>
+        </div>
+        <div class="row mar-1">
+            <div class="specs-col">
+                <h3>Model</h3>
+                <p>AC-2000</p>
+            </div>
+            <div class="specs-col">
+                <h3>Power</h3>
+                <p>5 HP</p>
+            </div>
+            <div class="specs-col">
+                <h3>Air Delivery</h3>
+                <p>20 CFM</p>
+            </div>
+            <div class="specs-col">
+                <h3>Max Pressure</h3>
+                <p>150 PSI</p>
+            </div>
+            <div class="specs-col">
+                <h3>Tank Capacity</h3>
+                <p>50 Liters</p>
+            </div>
+            <div class="specs-col">
+                <h3>Noise Level</h3>
+                <p>75 dB</p>
+            </div>
+            <div class="specs-col">
+                <h3>Weight</h3>
+                <p>85 kg</p>
+            </div>
+            <div class="specs-col">
+                <h3>Voltage</h3>
+                <p>220V / 50Hz</p>
+            </div>
+        </div>
+    </div>
+</div>
+Styling:
+Add the following CSS to style the specifications section:
+
+css
+Insert Code
+Run
+Copy code
+#specifications {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#specifications .heading span {
+    font-size: 14px;
+    color: #666;
+    text-transform: uppercase;
+}
+
+#specifications .heading h1 {
+    font-size: 36px;
+    margin: 10px 0 30px;
+}
+
+#spec

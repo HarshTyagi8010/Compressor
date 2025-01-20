@@ -1,0 +1,17 @@
+{
+  "name": "fyle-assignment-main",
+  "version": "1.0.0",
+  "description": "This repository contains the code and documentation for a web application developed as part of a job application for the Web Development Intern position at Fyle.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.12.0"
+  }
+}
